@@ -9,7 +9,7 @@ import Appointment from "./Pages/Appointment";
 function App() {
   return (
     <div className="App">
-      <Router basename="/Auvergne-Rhone-Alpes">
+      <Router basename="/Trouve-ton-artisan">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/legal" element={<Legal />} />
