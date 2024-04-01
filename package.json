@@ -1,8 +1,8 @@
 {
-  "name": "Auvergne-Rhone-Alpes",
+  "name": "Trouve-ton-artisan",
   "version": "10.5.0",
   "private": true,
-  "homepage": "https://alkaison.github.io/Health-Plus/",
+  "homepage": "https://alkaison.github.io/Trouve-ton-artisan/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
