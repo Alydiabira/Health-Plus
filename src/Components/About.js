@@ -5,9 +5,9 @@ import "../Styles/About.css";
 
 function About() {
   return (
-    <div className="about-section" id="about">
+    <div className="about-section" id="maregion">
       <div className="about-image-content">
-        <img src={Doctor} alt="Doctor Group" className="about-image1" />
+        <img src={Doctor} alt="Doctor Group" className="maregion-image1" />
       </div>
 
       <div className="about-text-content">
