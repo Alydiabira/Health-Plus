@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
-import Info from "../Components/Info";
+import MaRegion from "../Components/MaRegion";
 import About from "../Components/About";
 import BookAppointment from "../Components/BookAppointment";
 import Reviews from "../Components/Reviews";
@@ -13,7 +13,7 @@ function Home() {
     <div className="home-section">
       <Navbar />
       <Hero />
-      <Info />
+      <MaRegion />
       <About />
       <BookAppointment />
       <Reviews />
