@@ -31,35 +31,37 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-          Health <span className="navbar-sign">+</span>
+        La Région <span className="navbar-sign">+</span>
         </Link>
       </h1>
+      <small>Auvergne-Rhône-Alpes</small>
+
 
       {/* Desktop */}
       <ul className="navbar-items">
         <li>
-          <Link to="/" className="navbar-links">
-            Home
+          <Link to="#maregion" className="navbar-links">
+            Ma Région
           </Link>
         </li>
         <li>
-          <a href="#services" className="navbar-links">
-            Services
+          <a href="#actualité" className="navbar-links">
+            Actualité
           </a>
         </li>
         <li>
-          <a href="#about" className="navbar-links">
-            About
+          <a href="#aides" className="navbar-links">
+            Aides
           </a>
         </li>
         <li>
-          <a href="#reviews" className="navbar-links">
-            Reviews
+          <a href="#particuliers" className="navbar-links">
+            Particuliers
           </a>
         </li>
         <li>
-          <a href="#doctors" className="navbar-links">
-            Doctors
+          <a href="#professionnels" className="navbar-links">
+            Professionnels
           </a>
         </li>
       </ul>
@@ -81,35 +83,31 @@ function Navbar() {
 
         <ul className="mobile-navbar-links">
           <li>
-            <Link onClick={openNav} to="/">
-              Home
+            <Link onClick={openNav} to="#maregion">
+            Ma Région
             </Link>
           </li>
           <li>
-            <a onClick={openNav} href="#services">
-              Services
+            <a onClick={openNav} href="#actualité">
+            Actualité
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#about">
-              About
+            <a onClick={openNav} href="#aides">
+            Aides
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#reviews">
-              Reviews
+            <a onClick={openNav} href="#particuliers">
+            Particuliers
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#doctors">
-              Doctors
+            <a onClick={openNav} href="#professionnels">
+              Professionnels
             </a>
           </li>
-          <li>
-            <a onClick={openNav} href="#contact">
-              Contact
-            </a>
-          </li>
+          
         </ul>
       </div>
 
