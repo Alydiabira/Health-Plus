@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function InformationCard(props) {
   return (
-    <div className="info-cards">
-      <span className="info-card-icon">
-        <FontAwesomeIcon className="info-fa-icon" icon={props.icon} />
+    <div className="maregion-cards">
+      <span className="maregion-card-icon">
+        <FontAwesomeIcon className="maregion-fa-icon" icon={props.icon} />
       </span>
-      <p className="info-card-title">{props.title}</p>
-      <p className="info-card-description">{props.description}</p>
+      <p className="maregion-card-title">{props.title}</p>
+      <p className="maregion-card-description">{props.description}</p>
     </div>
   );
 }
